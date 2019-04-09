@@ -1,0 +1,212 @@
+
+
+.header{
+    /* background-color: red; */
+    display: flex;
+    /* text-align: center; */
+    height: 10%;
+}
+
+.logo h1{
+    color: white;
+}
+
+.logo span{
+    color: red;;
+}
+
+.header ul a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.header .head{
+    display: flex;
+    margin: 0 10px;
+}
+
+.home .header .head .head-navbar ul a{
+    color: white;
+    list-style: none;
+    display: inline;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+ul a {
+    
+}
+
+ul {
+    margin-top: 30px;
+}
+
+
+
+.access{
+    /* float: right; */
+    position: relative;
+    left: 90%;
+    margin:0 0;
+    padding: 0 5px;;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.access button{
+    margin: 0 20px;
+}
+.header .head .head-navbar{
+    text-transform: uppercase;
+	text-decoration: none;   
+}
+
+
+.home{
+    background: url(https://www.healthcareit.com.au/sites/default/files/gettyimages-1017199998.jpg);
+    height: 650px;
+
+}
+
+.iklan{
+    width: 42%;
+    opacity: 0.5;
+    position: absolute;
+    left: 55%;
+    height: 30%;
+    margin-top: 10%;
+    padding-top: 20px;
+    /* padding-bottom: 30px; */
+    padding-left: 30px;
+    background-color: rgb(223, 196, 196);
+}
+
+.iklan h1{
+    font-size: 20px;
+    font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 10px; */
+}
+
+.iklan .collection{
+    text-align: center;
+    background-color: red;
+    position: relative;
+    left: 150px;
+    height: 25%;
+    width: 40%;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.iklan .collection a{
+    color: white;
+}
+
+.iklan span{
+    color: red;
+}
+
+.service{
+    width: 90%;
+    height: 0%;
+    margin: 20px auto;
+    /* opacity: 0.5; */
+	/* padding: 40px 0; */
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+
+	
+}
+
+.service .section-title{
+    margin-top: 0;
+    height: 50%;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(114, 122, 113);
+    opacity: 0.5;
+}
+
+.service .section-title h2{
+    height: 60px;
+    margin-top: 20px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.service .carousel{
+    position: relative;
+    left: 250px;
+    margin-left: 90px;
+}
+
+.service .carousel .item img{
+    width: 800px;
+	height: 250px;
+}
+
+.book{
+    margin-top: 300px;
+    /* background-color: rgb(253, 235, 235); */
+    /* opacity: 0.9; */
+}
+
+.book h1{
+    margin-left: 25%;
+}
+
+.book .contact{
+    /* background-color: red; */
+    width: 50%;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.book .contact button{
+    margin-left: 90%;
+}
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+    padding-top: 0.08px;
+    
+}
+
+.footer h1{
+    font-size: 20px;
+}
+
+@media (max-width:768px){ /* medium */
+    p {
+       color:red;
+    } 
+}
+
+@media (min-width:769px) and (max-width:991px){ /* small*/
+    p {
+       color:green;
+    } 
+}
+
+@media (min-width:992px) and (max-width:1199px){ /* x-small*/
+    p {
+       color:orange;
+    }
+} 
+
+@media (min-width:1200px){ /* medium */
+    p {
+       color:blue;
+    }
+}

@@ -1,0 +1,45 @@
+
+
+.header .navbar{
+    display: flex;
+    background: url(https://images.pexels.com/photos/1047051/pexels-photo-1047051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 100% ;
+    background-position: center;
+    height: 700px;
+    /* width: 5000px; */
+}
+
+.navbar .logo{
+    margin-left: 20px;
+}
+
+.navbar .logo span{
+    color: red;
+}
+}
+.header .logo{
+    margin-left: 30px;
+}
+
+.header .access{
+    margin: 20px 50px 0 400px;
+    display: flex;
+    
+    /* padding: 0 50px; */
+}
+
+.header .navbar .access ul{
+    /* margin: 0 20px 0 30px; */
+    /* display: inline; */
+}
+
+.header .home{
+    text-align: center;
+    /* margin-right: 40px; */
+    position: relative;
+    right: 400px;
+    top: 100px;
+    width: 100%;
+    margin-bottom: 500px;
+    background-color: red;
+}

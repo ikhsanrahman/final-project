@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+     
+     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+     <!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+     <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main-about.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+                <div class="logo">
+                    <h1>G<span>oo</span>d</h1>
+                </div>
+                <div class="access">
+                        <ul>
+                                    <button class="profile" type="button" data-toggle="modal" data-target="#lihat">
+                                      Profile
+                                    </button>
+                                    
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="lihat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">My Personal Info</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            
+                                                <div class="form-group">
+                                                    <label for="name">Nama Lengkap</label>
+                                                    <input class="form-control" type="text" name="name" id="name" placeholder="Ikhsan Rahman Husein" disabled>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="email">Email</label>
+                                                    <input type="text" class="form-control" name="email" id="email" cols="30" rows="10" placeholder="ikhsanrahman.h@gmail.com" disabled>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="password">Occupation</label>
+                                                    <input type="password" class="form-control" name="password" id="password" cols="30" rows="10" placeholder="Freelancer" disabled>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="no">No.Handphone</label>
+                                                    <input type="text" class="form-control" name="no" id="no" cols="30" rows="10" placeholder="082283038159" disabled>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="no">Activity</label>
+                                                    <input type="text" class="form-control" name="no" id="no" cols="30" rows="10" placeholder="Learn about Front end developing and Machine Learning" disabled>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="no">Dream</label>
+                                                    <input type="text" class="form-control" name="no" id="no" cols="30" rows="10" placeholder="Wanna be Full stack Developer and Master in Machine Learning" disabled>
+                                                </div>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button class="login" type="button" data-toggle="modal" data-target="#pendidikan">
+                                        pendidikan
+                                      </button>
+                                      
+                                      <!-- Modal -->
+                                      <div class="modal fade" id="pendidikan" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                              <h4 class="modal-title" id="myModalLabel">My Education</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                              <form method="POST" action="https://formspree.io/santiago@getnada.com">
+                                                  <div class="form-group">
+                                                      <label for="email">Universitas</label>
+                                                      <input class="form-control" type="text" name="email" id="email" placeholder="Universitas Riau" disabled>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="isi">Jurusan</label>
+                                                      <input type="password" class="form-control" name="isi" id="isi" cols="30" rows="10" placeholder="Fisika" disabled>
+                                                  </div>
+                                                  
+                                
+                                
+                                                  </div>
+                                              </form>
+                                            </div>
+                                          </div>
+                                        </div>
+                                
+                          </ul>
+                      </div>
+                      
+
+        </div>
+
+
+
+
+    </div>
+    
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+     
+</body>
+</html>

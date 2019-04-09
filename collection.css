@@ -1,0 +1,145 @@
+
+
+.header{
+    /* background-color: red; */
+    display: flex;
+    /* text-align: center; */
+    height: 10%;
+}
+
+.logo h1{
+    color: white;
+}
+
+.logo span{
+    color: red;;
+}
+
+.header ul a{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.header .head{
+    display: flex;
+    margin: 10px 10px;
+
+}
+
+.home .header .head .head-navbar ul a{
+    color: white;
+    list-style: none;
+    display: inline;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+ul a {
+    
+}
+
+ul {
+    margin-top: 30px;
+}
+
+
+
+.access{
+    /* float: right; */
+    position: relative;
+    left: 100%;
+    margin:0 0;
+    padding: 0 5px;;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.access button{
+    margin: 0 20px;
+}
+.header .head .head-navbar{
+    text-transform: uppercase;
+	text-decoration: none;   
+}
+
+
+.home{
+    background: url(https://www.healthcareit.com.au/sites/default/files/gettyimages-1017199998.jpg);
+    height: 650px;
+    width: 100%;
+    background-size: 100%;
+}
+
+.category {
+    height:100%;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+    top: 70px;
+    left: 0;
+    font-size: 20px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .category a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+/*   
+  .category a:hover {
+    color: #f1f1f1;
+  } */
+
+
+
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 185px;
+    /* width: 100%; */
+    /* margin: 100px; */
+    /* width: 100%; */
+    padding-top: 0.5px;
+    
+}
+
+.footer h1{
+    font-size: 20px;
+}
+
+@media (max-width:768px){ /* medium */
+    p {
+       color:red;
+    } 
+}
+
+@media (min-width:769px) and (max-width:991px){ /* small*/
+    p {
+       color:green;
+    } 
+}
+
+@media (min-width:992px) and (max-width:1199px){ /* x-small*/
+    p {
+       color:orange;
+    }
+} 
+
+@media (min-width:1200px){ /* medium */
+    p {
+       color:blue;
+    }
+}
